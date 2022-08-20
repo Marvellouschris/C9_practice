@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// My name is Marvellous
+
+// converting celsius to farenheit
+int main()
+{
+   double a;
+   
+   printf("Input the temperature in degrees Celsius: ");
+   scanf(" %f", &a);
+   printf("\n calculating celsius to farenheit...."); /* formular stored */
+   printf("\n %f °C = %f farenheit", a, (9/5) * a + 32); /* user don't need to input formular, thoughit can be updated to that if neccesary */
+  
+  return(0);
+} 

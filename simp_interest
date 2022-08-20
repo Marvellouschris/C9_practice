@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// Marvellous
+
+/* Calculate simple interest for a set of value representing pricipal, no of years and rate of interest */
+
+int main()
+{
+  double a;
+  double b;
+   double c;                                                  double d;
+   double i;
+
+   printf("Calculate simple interest representing principle, no of years and rate of interest");
+  printf("\n Input principle: ");
+  scanf(" %f", &a);
+  printf("\n Input number of years: ");
+  scanf(" %f", &b);
+  printf("\n Input rate of interest: ");
+  scanf(" %f", &c);
+  printf("simple interest is ( %f * %f * %f)/100\n", a, b, c);// Formular for calculating simple interest
+  printf("\n Simple Interest = %f", (a * b * c)/100);
+
+ return(0);
+}
