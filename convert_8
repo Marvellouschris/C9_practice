@@ -2,7 +2,7 @@
 
 // My name is Marvellous
 
-// converting celsius to farenheit
+// converting degree celsius to farenheit
 int main()
 {
    double a;
