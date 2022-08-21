@@ -15,6 +15,6 @@ int main()
     sum = sum + arr_ay[i]; //added sum to the number of student
     averg = sum/70; 
   }
-  printf("\nMarks of student for sum are %f and average are %f", sum, averg);
+  printf("\nMarks of student for sum are %3.f and average are %3.f", sum, averg);
 }
   
