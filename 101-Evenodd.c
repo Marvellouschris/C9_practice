@@ -5,7 +5,7 @@ number of even and odd elements */
 
 int main(void)
 {
-  int j, size, Arr_stg[];
+  int j, size, Arr_stg[10];
   int evenNum = 0, oddNum = 0;
   
   printf("Enter Integers size of arrays: ");
