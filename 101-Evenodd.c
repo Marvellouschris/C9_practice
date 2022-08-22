@@ -3,7 +3,7 @@
 /* write integers to count the total
 number of even and odd elements */
 
-int main()
+int main(void)
 {
   int j, size, Arr_stg[];
   int evenNum = 0, oddNum = 0;
@@ -24,6 +24,6 @@ int main()
       oddNum++;
       }
     }
-  printf("\nNumber of even integers are: %d",evenNum);
-  printf("\nNumber of odd Integers are: %d",oddNum);
+  printf("\nNumber of even integers are: %d", evenNum);
+  printf("\nNumber of odd Integers are: %d", oddNum);
 }
