@@ -24,6 +24,6 @@ int main(void)
       oddNum++;
       }
     }
-  printf("\nNumber of even integers are: %d", evenNum);
-  printf("\nNumber of odd Integers are: %d", oddNum);
+  printf("\nNumber of even integers is: %d", evenNum);
+  printf("\nNumber of odd Integers is: %d", oddNum);
 }
