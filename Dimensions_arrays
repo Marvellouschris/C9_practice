@@ -1,0 +1,31 @@
+#include <stdio.h>
+//Marvellouschris
+
+/* Calculating the Sum of two dimensional 
+arrays with Metrix */
+
+int main()
+{
+  int a[3][4], sum = 0;
+  printf("Enter Element of metrix: ");
+  for (int ch = 0; ch < 3; ch++)
+  {
+    for (int d = 0; d < 4; d++)
+    {
+      scanf(" %d", &a[ch][d]);
+    }
+    printf("METRRIXS:\t");
+  }
+  for (int ch = 0; ch < 3; ch++)
+  {
+    for (int d = 0; d < 4; d++)
+    {
+      printf(" %d", &a[ch][d]);
+      sum += a[ch][d];
+    }
+    printf("\n");
+  }
+  printf("Sum of METRIX = %d", sum);
+}
+  
+
